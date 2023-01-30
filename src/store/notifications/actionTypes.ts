@@ -1,0 +1,11 @@
+const GET_HEADER_NOTIFICATIONS = 'GET_HEADER_NOTIFICATIONS' as const;
+const GET_USER_NOTIFICATIONS = 'GET_USER_NOTIFICATIONS' as const;
+const VIEW_NOTIFICATION = 'VIEW_NOTIFICATION' as const;
+
+const notificationsActionTypes = {
+  GET_HEADER_NOTIFICATIONS,
+  GET_USER_NOTIFICATIONS,
+  VIEW_NOTIFICATION,
+};
+
+export default notificationsActionTypes;

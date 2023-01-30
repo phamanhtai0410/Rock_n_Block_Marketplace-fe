@@ -1,0 +1,87 @@
+import { mockAva } from 'assets/images';
+
+import { SellerCardProps } from './SellerCard';
+
+export const SellerCardPropsMocked: SellerCardProps = {
+  color: 'pink',
+  place: 1,
+  avatar: mockAva,
+  name: 'Payton Harris',
+  tradeVolume: 2.456,
+  currency: 'USD',
+  id: '',
+};
+export const sellersMock: SellerCardProps[] = [
+  {
+    color: 'pink',
+    place: 1,
+    avatar: mockAva,
+    name: 'Payton Harris',
+    tradeVolume: 2.456,
+    currency: 'USD',
+    id: '',
+  },
+  {
+    color: 'pink',
+    place: 2,
+    avatar: mockAva,
+    name: 'Payton Harris',
+    tradeVolume: 2.456,
+    currency: 'USD',
+    id: '',
+  },
+  {
+    color: 'green',
+    place: 3,
+    avatar: mockAva,
+    name: 'Payton Harris',
+    tradeVolume: 2.456,
+    currency: 'USD',
+    id: '',
+  },
+  {
+    color: 'black',
+    place: 4,
+    avatar: mockAva,
+    name: 'Payton Harris',
+    tradeVolume: 2.456,
+    currency: 'USD',
+    id: '',
+  },
+  {
+    color: 'pink',
+    place: 5,
+    avatar: mockAva,
+    name: 'Payton Harris',
+    tradeVolume: 2.456,
+    currency: 'USD',
+    id: '',
+  },
+  {
+    color: 'pink',
+    place: 6,
+    avatar: mockAva,
+    name: 'Payton Harris',
+    tradeVolume: 2.456,
+    currency: 'USD',
+    id: '',
+  },
+  {
+    color: 'green',
+    place: 7,
+    avatar: mockAva,
+    name: 'Payton Harris',
+    tradeVolume: 2.456,
+    currency: 'USD',
+    id: '',
+  },
+  {
+    color: 'black',
+    place: 8,
+    avatar: mockAva,
+    name: 'Payton Harris',
+    tradeVolume: 2.456,
+    currency: 'USD',
+    id: '',
+  },
+];

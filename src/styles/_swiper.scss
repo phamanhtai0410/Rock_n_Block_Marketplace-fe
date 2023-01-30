@@ -1,0 +1,23 @@
+.swiper {
+  @media only screen and (max-width: 1200px) {
+    overflow: visible !important;
+  }
+}
+
+.swiper-slide {
+  height: auto;
+}
+
+// .swiper-pagination-bullet-active-main {
+//   background: black !important;
+// }
+
+// .swiper-pagination {
+//   position: absolute;
+//   bottom: -64px !important;
+//   left: calc(50%) !important;
+
+//   @media only screen and (max-width: 600px) {
+//     left: calc(40px - 6%) !important
+//   }
+// }
